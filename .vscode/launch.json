@@ -1,13 +1,29 @@
 {
   "version": "0.2.0",
   "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/devaanshmann/Desktop/CPP",
-      "program": "/Users/devaanshmann/Desktop/CPP/build/Debug/outDebug"
-    }
+      {
+          "name": "C/C++: clang build and debug active file",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${fileDirname}/${fileBasenameNoExtension}",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "lldb",
+          "preLaunchTask": "",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ],
+          "miDebuggerPath": "/usr/bin/lldb",
+          "logging": {
+              "engineLogging": true
+          }
+      }
   ]
 }
