@@ -3,7 +3,7 @@
 
 int main(){
     
-    //  useful math related funtions - max, min
+    //  useful math related funtions - max, min, pow, sqrt, abs, round, ceil, floor
 
     double x = 3.99;
     double y = 4;
@@ -19,12 +19,11 @@ int main(){
     
     // z = abs(-3);            // absolute value
     
-    // z = round(x);           // rounds off to nearest number
+    // z = round(x);           // rounds off to nearest whole number
     
-    // z = ceil(x);            // rounds up to the next number
+    // z = ceil(x);            // rounds up to the next whole number
     
-    // z = floor(x);           // rounds down to the number left to decimal.
-
+    // z = floor(x);           // rounds down to the lesser whole number (left to decimal).
 
     std::cout << z;
     

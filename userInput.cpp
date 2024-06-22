@@ -4,7 +4,7 @@ int main(){
     
     // cout << (insertion operator)
     // cin << (extraction operator)
-    // use "Std::getline(std::cin >> std::ws, string name);" if you have spaces in your string or have a newline character before this command (ws is used to eliminate those spaces)
+    // use getline function - "Std::getline(std::cin >> std::ws, string name);" if you have spaces in your string or have a newline character before this command (ws is used to eliminate those spaces)
 
 
     std::string name;
