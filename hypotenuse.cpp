@@ -24,4 +24,4 @@ int main(){
     cout << "Hypotenuse = " << hypotenuse << '\n';
     
     return 0;
-}
+} 

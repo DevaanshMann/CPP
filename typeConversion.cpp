@@ -28,4 +28,4 @@ int main(){
     std::cout << score << "%";
 
     return 0;
-}
+} 

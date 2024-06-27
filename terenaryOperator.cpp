@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     
-    int grade = 75;
+    // int grade = 75;
 
     // using if/else statement
 
@@ -19,8 +19,15 @@ int main(){
 
     // Using Terenary operator (condition? Expression1 : expression2);
 
-    (grade >=60) ? cout << "You Pass!" << '\n' : cout << "You Fail!" << '\n';
+    // (grade >=60) ? cout << "You Pass!" << '\n' : cout << "You Fail!" << '\n';
 
+    // int number = 8;
+    // number % 2 ? cout << "Number is Odd" << '\n' : cout << "Number is Even" << '\n';
+
+
+    // bool hungry = true;
+    // hungry ? cout << "Yes" << '\n' : cout << "NO" << '\n';
+    // cout << (hungry ? "Yes" : "No");
 
     return 0;
 }
