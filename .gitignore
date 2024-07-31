@@ -16,3 +16,5 @@ logicalOperators
 tempConversion
 stringMethods
 whileLoop
+doWhileLoops
+forLoop
