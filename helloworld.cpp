@@ -6,4 +6,4 @@ int main(){
     std::cout << "second output" << '\n';
 
     return 0;
-} 
+}
