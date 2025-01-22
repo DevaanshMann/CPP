@@ -22,3 +22,4 @@ breakContinueStatement
 nestedLoop
 rectangle
 randomNumberGenerator
+randomEventGenerator
