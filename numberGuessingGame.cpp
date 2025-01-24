@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
     int num;
-    int tries;
+    int tries = 0;
     int guess;
 
     time_t current_time = time(nullptr);
