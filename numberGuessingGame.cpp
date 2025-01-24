@@ -9,7 +9,7 @@ int main(){
     int tries = 0;
     int guess;
 
-    time_t current_time = time(nullptr);
+    srand(time(nullptr));
 
     num = (rand() % 100) + 1;
 
