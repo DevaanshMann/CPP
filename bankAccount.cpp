@@ -17,11 +17,12 @@ int main() {
 
     do
     {
-        cout << "Enter your choice:\n";
+        cout << "\nSelect from the following menu\n";
         cout << "1. Show Balance\n";
         cout << "2. Deposit Money\n";
         cout << "3. Withdraw Money\n";
         cout << "4. Exit\n";
+        cout << "\nEnter your choice: ";
 
         cin >> choice;
 
@@ -38,10 +39,10 @@ int main() {
                     showBalance(balance);
                 break;
 
-            case 4: cout << "Thanks for visiting!\n";
+            case 4: cout << "\nThanks for visiting!\n";
                 break;
             
-            default: cout << "Invalid choice!";
+            default: cout << "\nInvalid choice!\n";
                 break;
         }
         
@@ -51,13 +52,13 @@ int main() {
 }
 
 void showBalance(double balance){
-    cout << "Your balance is: $" << setprecision(2) << fixed <<balance << '\n';
+    cout << "\nYour balance is: $" << setprecision(2) << fixed <<balance << '\n';
 }
 
 double deposit(){
     double amount = 0;
 
-    cout << "Enter amount to be deposited: $";
+    cout << "\nEnter amount to be deposited: $";
     cin >> amount;
 
     if (amount > 0)
@@ -66,7 +67,7 @@ double deposit(){
     }
 
     else{
-        cout << "Enter valid amount!\n";
+        cout << "\nEnter valid amount!\n";
         return 0;
     }
 
@@ -77,18 +78,18 @@ double withdraw(double balance){
 
     double amount = 0;
 
-    cout << "Enter amount to be withdrawn: $";
+    cout << "\nEnter amount to be withdrawn: $";
     cin >> amount;
 
     if (amount > balance)
     {
-        cout << "Insufficient Funds! ";
+        cout << "\nInsufficient Funds!\n";
         return 0;
     }
 
     else if (amount < 0)
     {
-        cout << "Enter valid amount\n";
+        cout << "\nEnter valid amount\n";
         return 0;
     }
 
