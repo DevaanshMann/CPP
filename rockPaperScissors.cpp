@@ -57,8 +57,7 @@ char getComputerChoice(){
     case 2: return 'p';
     case 3: return 's';
     
-    default:
-        break;
+    default: return 'e';
     }
 }
 
@@ -72,7 +71,7 @@ void showChoice(char choice){
     case 's': cout << "SCISSORS\n";
         break;
     
-    default:
+    default: cout << "Invalid choice!";
         break;
     }
 }
